@@ -36,7 +36,7 @@ const HomePage = () => {
             </h2>
             <p className="text-[#ADB7BE] mt-9 my-4 text-base sm:text-lg lg:text-xl text-left">
               Bem vindo, meu nome é Renato e sou Desenvolvedor FrontEnd, formado
-              em Analise e Desenvolvimento de Sistemas, apaixonado por
+              em Análise e Desenvolvimento de Sistemas, apaixonado por
               tecnologia, autodidata, proativo, fascinado em adquirir
               conhecimento.
             </p>
