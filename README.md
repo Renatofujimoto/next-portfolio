@@ -1,10 +1,11 @@
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[NEXT_BADGE]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://next-portfolio-renatofujimoto.vercel.app/
 
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">My Portfolio 💻</h1>
 
 ![react][REACT__BADGE]
 ![next][NEXT_BADGE]
@@ -20,7 +21,7 @@
 </p>
 
 <p align="center">
-    <img src="../.github/portfolio.png" alt="Image Example" width="400px">
+    <img src=".github/portfolio.png" alt="Image Example" width="400px">
 </p>
 
 <h2 id="started">📌 About</h2>
