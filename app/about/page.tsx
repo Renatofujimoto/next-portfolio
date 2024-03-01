@@ -146,7 +146,7 @@ const AboutSection: React.FC = () => {
                 {TAB_DATA.find((t) => t.id === tab)?.content}
               </div>
             </div>
-            <div className="mt-4 md:mt-0 text-left flex flex-col h-[500px]">
+            <div className=" md:mt-0 text-left flex flex-col h-screen mb-7">
               <Experience />
             </div>
           </div>
