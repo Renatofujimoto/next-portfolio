@@ -34,11 +34,14 @@ const HomePage = () => {
                 repeat={Infinity}
               />
             </h2>
-            <p className="text-[#ADB7BE] mt-9 my-4 text-base sm:text-lg lg:text-xl text-left">
-              Bem vindo, meu nome é Renato e sou Desenvolvedor FrontEnd, formado
-              em Análise e Desenvolvimento de Sistemas, apaixonado por
-              tecnologia, autodidata, proativo, fascinado em adquirir
-              conhecimento.
+            <p className="text-xs md:text-lg mb-2 text-white tracking-[3px]">
+              Bem vindo, meu nome é Renato e sou Desenvolvedor Front End com +1
+              ano de experiência, formado em Análise e Desenvolvimento de
+              Sistemas, com foco em criar aplicações web/mobile interativas e
+              responsivas. Com foco principal nas stacks Frontend:
+              JavaScript/Typescript, React, NextJs, React Native, ReactQuery,
+              Jest/Testing Library. E secundariamente nas stacks BackEnd:
+              Express, Nodejs, Docker, Postgresql e PrismaOrm
             </p>
           </motion.div>
           <motion.div

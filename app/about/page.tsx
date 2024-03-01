@@ -6,6 +6,7 @@ import TabButton from "../../components/About/TabButton";
 import DownloadButton from "@/components/Home/DownloadButton";
 
 import Skills from "@/components/BannerSkills/skillsBanner";
+import { Experience } from "@/components/Experiencie/Experience";
 
 interface TabData {
   title: string;
@@ -99,10 +100,10 @@ const AboutSection: React.FC = () => {
               className="rounded-full shadow-2xl"
             />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-              <h2 className="text-4xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">
+              <h3 className="tracking-[15px] text-center my-10 uppercase text-slate-400 text-xl md:text-3xl">
                 Sobre Mim
-              </h2>
-              <p className="text-base text-justify lg:text-lg">
+              </h3>
+              <p className="text-xs md:text-lg mb-2 text-white tracking-[3px]">
                 Sou um desenvolvedor FrontEnd apaixonado por criar aplicações
                 web interativas e responsivas. eu tenho experiencia trabalhando
                 com JavaScript, React, NextJs, ReactQuery, Jest/Testing Library
@@ -146,27 +147,7 @@ const AboutSection: React.FC = () => {
               </div>
             </div>
             <div className="mt-4 md:mt-0 text-left flex flex-col h-[500px]">
-              <h2 className="text-4xl font-bold mb-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-gray-600">
-                Experiências
-              </h2>
-
-              <div className="flex flex-col sm:flex-row justify-start mt-8 space-y-4 sm:space-y-0 sm:space-x-4 ">
-                <TabButton
-                  selectTab={() => handleTabChange("design")}
-                  active={tab === "design"}
-                >
-                  Cooper Screen
-                </TabButton>
-                <TabButton
-                  selectTab={() => handleTabChange("empresas")}
-                  active={tab === "empresas"}
-                >
-                  We laborate
-                </TabButton>
-              </div>
-              <div className="mt-8">
-                {TAB_DATA2.find((t) => t.id === tab)?.content}
-              </div>
+              <Experience />
             </div>
           </div>
         </section>

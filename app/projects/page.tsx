@@ -100,8 +100,8 @@ const ProjectsSection = () => {
     <>
       <main className="flex h-full flex-col bg-[#121212]">
         <section>
-          <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-            My Projects
+          <h2 className="tracking-[15px] text-center my-10 uppercase text-slate-400 text-xl md:text-3xl">
+            Meus Projetos
           </h2>
           <AchievementsSection />
           <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
