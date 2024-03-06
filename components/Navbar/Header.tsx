@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex items-center gap-x-8">
           <button
             onClick={onSideBarOpen}
-            className="p-2 rounded-full bg-gray-700 text-gray-500 hover:bg-gray-200 hover:text-gray-600"
+            className="p-2 rounded-full bg-white text-[#121212] hover:bg-gray-200 hover:text-gray-600"
           >
             <HiBars3 size={28} className="cursor-pointer shrink-0" />
           </button>
